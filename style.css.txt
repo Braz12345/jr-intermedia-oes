@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0d0d0d;
+    color: white;
+}
+
+header {
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #111;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: gold;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('perfume1.jpg') no-repeat center/cover;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: #1a1a1a;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card span {
+    color: gold;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.whatsapp-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}

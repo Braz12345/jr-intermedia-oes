@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>JR Intermediações</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>JR Intermediações</h1>
+    <p>Perfumes Masculinos Importados</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="inicio" class="banner">
+    <h2>Perfumes Árabes Premium</h2>
+    <p>Alta fixação • Elegância • Originalidade</p>
+</section>
+
+<section id="produtos">
+    <h2>Perfumes Árabes Importados</h2>
+
+    <div class="card">
+        <img src="perfume1.jpg">
+        <h3>Asad (Lattafa)</h3>
+        <p>Forte • Alta fixação (8h+)</p>
+        <span>🔥 Mais vendido</span>
+        <a href="https://wa.me/5562998532983?text=Quero%20o%20Asad" class="botao">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="perfume2.jpg">
+        <h3>Club de Nuit Intense Man</h3>
+        <p>Elegante • Muito elogiado</p>
+        <span>🔥 Muito procurado</span>
+        <a href="https://wa.me/5562998532983?text=Quero%20o%20Club%20de%20Nuit" class="botao">Comprar</a>
+    </div>
+
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>WhatsApp: (62) 99853-2983</p>
+    <p>Instagram: @braz568</p>
+    <a href="https://instagram.com/braz568" class="botao">Ver Instagram</a>
+</section>
+
+<footer>
+    <p>© 2026 JR Intermediações</p>
+</footer>
+
+<!-- BOTÃO WHATSAPP -->
+<a href="https://wa.me/5562998532983?text=Vim%20pelo%20site" class="whatsapp-fixo">💬</a>
+
+</body>
+</html>
